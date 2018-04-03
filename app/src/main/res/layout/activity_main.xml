@@ -44,6 +44,12 @@
         android:text="隐藏状态栏导航栏并固定住"/>
 
     <Button
+        android:id="@+id/id7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dim"/>
+
+    <Button
         android:id="@+id/id8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

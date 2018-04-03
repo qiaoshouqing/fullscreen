@@ -11,6 +11,17 @@ public class PictureActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picture);
 
+//        findViewById(R.id.picture).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                View decorView3 = getWindow().getDecorView();
+//                int uiOptions3 = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN;
+////                        | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
+//                decorView3.setSystemUiVisibility(uiOptions3);
+//                getSupportActionBar().hide();
+//            }
+//        });
+
         int type = getIntent().getIntExtra("type", 1);
 
         switch (type) {
@@ -66,6 +77,12 @@ public class PictureActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
                 decorView6.setSystemUiVisibility(uiOptions6);
                 getSupportActionBar().hide();
+                break;
+            case 7:
+                // This example uses decor view, but you can use any visible view.
+                View decorView7 = getWindow().getDecorView();
+                int uiOptions7 = View.SYSTEM_UI_FLAG_LOW_PROFILE;
+                decorView7.setSystemUiVisibility(uiOptions7);
                 break;
             case 8:
                 View decorView8 = getWindow().getDecorView();
