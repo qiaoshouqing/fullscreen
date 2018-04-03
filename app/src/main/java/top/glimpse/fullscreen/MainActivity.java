@@ -66,5 +66,14 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intent);
             }
         });
+
+        findViewById(R.id.id8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PictureActivity.class);
+                intent.putExtra("type", 8);
+                MainActivity.this.startActivity(intent);
+            }
+        });
     }
 }
