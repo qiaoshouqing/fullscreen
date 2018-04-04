@@ -11,48 +11,81 @@
         android:id="@+id/id1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏"/>
+        android:text="隐藏状态栏、不稳定布局"/>
 
     <Button
         android:id="@+id/id2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏导航栏"/>
+        android:text="隐藏状态栏导航栏、不稳定布局"/>
 
     <Button
         android:id="@+id/id3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏并稳定布局"/>
+        android:text="隐藏状态栏、延伸布局、稳定布局"/>
 
     <Button
         android:id="@+id/id4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏导航栏并稳定布局"/>
+        android:text="隐藏导航栏、延伸布局、稳定布局"/>
 
     <Button
         android:id="@+id/id5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏导航栏并使用immerse"/>
+        android:text="隐藏状态栏导航栏、延伸布局、稳定布局、使用immerse"/>
 
     <Button
         android:id="@+id/id6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏导航栏并固定住"/>
+        android:text="隐藏状态栏导航栏、延伸布局、稳定布局、使用immerse_sticky固定住"/>
 
     <Button
         android:id="@+id/id7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dim"/>
+        android:text="使状态栏导航栏变暗"/>
 
     <Button
         android:id="@+id/id8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="隐藏状态栏并稳定布局"/>
+        android:text="隐藏状态栏、不延伸布局、稳定布局"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+
+    <Button
+        android:id="@+id/id10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全屏不显示状态栏导航栏"/>
+
+
+    <Button
+        android:id="@+id/id11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全屏显示状态栏隐藏导航栏"/>
+
+    <Button
+        android:id="@+id/id12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全屏隐藏状态栏显示导航栏"/>
+
+    <Button
+        android:id="@+id/id13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全屏显示状态栏导航栏"/>
+
 
 </LinearLayout>

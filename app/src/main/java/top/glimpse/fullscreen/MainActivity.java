@@ -85,5 +85,45 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intent);
             }
         });
+
+        findViewById(R.id.id10).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PictureActivity.class);
+                intent.putExtra("type", 10);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+
+        findViewById(R.id.id11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PictureActivity.class);
+                intent.putExtra("type", 11);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+
+
+        findViewById(R.id.id12).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PictureActivity.class);
+                intent.putExtra("type", 12);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+
+        findViewById(R.id.id13).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PictureActivity.class);
+                intent.putExtra("type", 13);
+                MainActivity.this.startActivity(intent);
+            }
+        });
     }
 }
